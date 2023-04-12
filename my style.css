@@ -1,0 +1,53 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    cursor: url("fish.gif"),url("fish.cur"), default;
+}
+
+body{
+margin:20px;
+background-color:#81e6d5 ;
+color:white;
+
+}
+
+
+.topnav {
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    overflow: hidden;
+    height:20px;
+    align-items: center;
+
+}
+
+.topnav a {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:white;
+    text-decoration: none;
+
+
+}
+
+section {
+    margin-top: 80px;
+}
+
+img {
+ display:block;
+ left: 50%;
+ margin-left: -400px;
+ top: 50%;
+ margin-top: -400px;
+ position:absolute;
+ z-index: -2;
+}
